@@ -2,7 +2,7 @@
   "name": "asf-parser",
   "version": "0.3.0",
   "description": "streaming ASF audio file metdata parser",
-  "main": "asfParser.js",
+  "main": "asf-parser.js",
   "scripts": {
     "test": "mocha test.js -R spec"
   },
