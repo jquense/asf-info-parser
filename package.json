@@ -1,0 +1,37 @@
+{
+  "name": "asf-parser",
+  "version": "0.3.0",
+  "description": "streaming ASF audio file metdata parser",
+  "main": "asfParser.js",
+  "scripts": {
+    "test": "mocha test.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/asf-info-parser.git"
+  },
+  "keywords": [
+    "audio",
+    "ASF",
+    "windows",
+    "media",
+    "wma",
+    "parser"
+  ],
+  "author": "Jason Quense @theporchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/asf-info-parser/issues"
+  },
+  "homepage": "https://github.com/theporchrat/asf-info-parser",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "stream-tokenizr": "^0.3.0"
+  },
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
